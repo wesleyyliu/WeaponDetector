@@ -1,0 +1,21 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore all directories named .git
+**/.git/
+
+# Ignore cloned directory
+yolov5
+
+# misc
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.DS_Store  # for macOS users
+*.swp      # for Vim users
+static/labels/How to Defend against Gun from the Rear _ Krav Maga Defense.mp4
+static/labels/How_to_Defend_against_Attack_with_Knife___Krav_Maga.mp4
+static/uploads/How_to_Defend_against_Attack_with_Knife___Krav_Maga.mp4
+static/uploads/How_to_Defend_against_Gun_from_the_Rear___Krav_Maga_Defense.mp4
