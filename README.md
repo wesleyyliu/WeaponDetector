@@ -22,7 +22,14 @@ best.pt is the best model weights from my training.
 
 Installation Instructions:
 
-Simply activate the virtual environment, and then in the terminal, type:
+First, create a virtual environment and do the following:
+1. Clone the yolov5 repo:
+git clone https://github.com/ultralytics/yolov5
+cd yolov5
+pip install -r requirements.txt
+2. pip install flask
+
+Activate the virtual environment, and then in the terminal (make sure you are in the right directory), type:
 export FLASK_APP=app.py
 flask run
 
