@@ -14,11 +14,13 @@ WeaponDetection.ipynb is a notebook used to actually train the yolov5s object de
 
 detection.py is a short python function that runs the detect.py script in the yolov5 model to run inference on images and other files.
 
-app.py is a quick flask app that accepts user file submissions, runs inferences, and then displays the result.
+app.py is a quick flask app that accepts user file submissions, runs inferences, and then displays the result. The Detector class has an is_file_allowed function that checks whether a file has the right extension, a save_file function to save the file to the project directory and return its path, and then a process_file function to run the detection script on the upload location.
 
 test.py has some tests to test the functionality of app.py
 
 best.pt is the best model weights from my training.
+
+The separation of these parts allows for the different parts of the application (training, inference, and result display) to be separated.
 
 Installation Instructions:
 
